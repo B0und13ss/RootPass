@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RootPass</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="prompt">
+      <h1>RootPass</h1>
+      <h3>Generate a random password</h3>
+      <div class="slider-container">
+        <label for="slider">Length: <span id="length" class="container">8</span></label>
+        <input type="range" id="slider" class="slider" min="8" max="128" value=8 />
+      </div>
+      <div  class="parameter-sel">
+        <div>
+            <p>Numbers:</p>
+            <input type="number" id="number" class="container parameter" value=3>
+        </div>
+        <div>
+            <p>Specials:</p>
+            <input type="number" id="special" class="container parameter" value=3>
+        </div>
+      </div>
+      <div class="output container">
+        <div id="password">password</div>
+        <button id="copy">
+            <img src="/images/copy.png" alt="copy">
+        </button>
+      </div>
+      <button id="gen">GENERATE</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

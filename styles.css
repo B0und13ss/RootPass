@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin-bottom: 0;
+}
+
+body {
+  height: 100dvh;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  color: #dad7cd;
+}
+
+.prompt {
+  display: block;
+  margin: 40px auto;
+  padding: 16px;
+  background: #344e41ff;
+  height: max-content;
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 4px #00000033;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 3px;
+}
+
+.slider-container {
+  margin-top: 40px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 75%;
+  height: 6px;
+  border-radius: 10px;
+  background: #3a5a40;
+}
+
+.slider::-moz-range-thumb,
+.slider::-webkit-slider-thumb {
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 9px;
+  color: #dad7cd;
+  cursor: ew-resize;
+}
+
+.slider::-moz-range-progress {
+  background: #588157ff;
+  height: 6px;
+  border-radius: 10px;
+}
+
+#length {
+  padding: 2px 5px;
+}
+
+.parameter-sel {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.parameter {
+  font-family: Inter, sans-serif;
+  color: #dad7cd;
+  font-size: 24px;
+  text-align: center;
+  width: 60%;
+  -moz-appearance: textfield;
+  appearance: textfield;
+  outline: none;
+}
+
+.container {
+  border: solid 3px #3a5a40;
+  border-radius: 10px;
+  background: #b1b2b512;
+  box-shadow: 0px 0px 4px 0px #22222226;
+  padding: 10px;
+}
+
+.output {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#password {
+  margin: 0 0 2px 8px;
+  font-size: 24px;
+  overflow: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 29px;
+}
+
+#copy {
+  background: #3a5a40ff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px 0px #22222226;
+  width: 40px;
+  height: 40px;
+}
+
+#copy > img {
+  height: 70%;
+}
+
+#copy > img:hover {
+  height: 75%;
+}
+
+#copy > img:active {
+  height: 70%;
+}
+
+#gen {
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+  background: #dad7cdff;
+  box-shadow: 0px 0px 4px 0px #22222226;
+  width: 70%;
+  padding: 10px;
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  margin: 30px;
+}
+
+#gen:hover {
+    background: rgb(236, 233, 221);
+}
+
+#gen:active {
+    background: #dad7cdff;
+}
